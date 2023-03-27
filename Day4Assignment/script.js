@@ -1,5 +1,4 @@
 function currentDate() {
   var date = new Date();
-  document.write(date.toLocaleString());
-  document.write("<br>");
+  document.getElementById('date').innerHTML = date;
 }
