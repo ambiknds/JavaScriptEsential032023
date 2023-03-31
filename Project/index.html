@@ -16,12 +16,15 @@
     <h3>Weather app</h3>
     <div class="weather-container">
       <label>Enter City Name :</label>
-      <input type="text" id="city" placeholder="City Name">
+      <input type="text" id="city" placeholder="City Name" required>
       <div id="weather-detail">
         <img src="https://newsonair.gov.in/writereaddata/News_Pictures/MIS/2022/Feb/NPIC-202221784443.jpg" width="150"
           height="150">
         <div class="span-container">
-          <div id="current-weather">Current Weather :</div>
+          <h5 class="current-weather">Current Weather :</h5>
+          <p id="temperature"></p>
+          <h5 class="current-weather">Weather Type :</h5>
+          <p id="weatherType"></p>
         </div>
         <button class="action" onclick="getData()">Get Details</button>
       </div>
