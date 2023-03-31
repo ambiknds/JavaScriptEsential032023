@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.weather-container{
+  background-color: #fff;
+  width: 30rem;
+  height: 20rem;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+#city{
+  width: 20rem;
+  border: 1px solid blue;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+#weather-detail{
+  margin: 3rem auto;
+  width: fit-content;
+}
+.span-container{
+  display: inline-block;
+}
+#current-weather{
+  margin-bottom: 1rem;
+}
+.action{
+  background-color: dodgerblue;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 0.75rem;
+  border:none;
+  display: block;
+  margin: 1.5rem auto;
+  cursor: pointer;
+}
